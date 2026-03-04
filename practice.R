@@ -6,3 +6,5 @@ y <- 1.5 * x + rnorm(n, mean = 0, sd = 5)
 df <- data.frame(dose = n, outcome = y)\
 
 hp = glm(bm ~ cholesterol)
+
+# New comment 
